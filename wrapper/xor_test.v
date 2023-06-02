@@ -5,9 +5,9 @@ module xor_test(
 );
 
 dut dut_test(
-    a(a),
-    b(b),
-    y(y)
+    .a(a),
+    .b(b),
+    .y(y)
 )
 initial begin
     $dumpfile("waves.vcd");
