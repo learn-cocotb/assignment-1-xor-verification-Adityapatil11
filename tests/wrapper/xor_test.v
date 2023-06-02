@@ -4,7 +4,7 @@ module xor_test(
     output wire y
 );
 
-dut dut_test(
+dut dut(
     .a(a),
     .b(b),
     .y(y)
